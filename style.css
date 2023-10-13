@@ -48,13 +48,13 @@ main {
     margin-left: 100px;
     margin-right: 100px;
 }
-h3 {
+main h3 {
     font-size: 14px;
     font-weight: bold;
     color: rgb(0, 68, 255);
     margin-bottom: 0px;
 }
-h1 {
+main h1 {
     font-family: 'Manrope', sans-serif;
     font-weight: bolder;
     font-size: 60px;
@@ -62,7 +62,7 @@ h1 {
     margin-bottom: 0px;
     line-height: 60px;
 }
-h2 {
+main h2 {
     padding-left: 150px;
     padding-right: 150px;
     font-size: 18px;
@@ -85,4 +85,15 @@ main button:hover {
     cursor: pointer;
     scale: 0.98;
     opacity: 0.85;
+}
+section {
+    text-align: center;
+}
+section h2 {
+    font-size: 30px;
+}
+section h3 {
+    font-weight: normal;
+    color: #646464;
+    padding: 0px 260px 0px 260px;
 }
