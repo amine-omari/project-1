@@ -105,6 +105,11 @@ section h3 {
     grid-template-rows: repeat(2, 200px);
     gap: 15px;
 }
+.features-container div {
+    transition: 0.5s;
+    padding: 0px;
+    margin: 0px;
+}
 section h4 {
     font-size: 19px;
     margin-bottom: 0px;
@@ -113,4 +118,8 @@ section h4 {
 section p {
     padding: 0px 35px 0px 35px;
     margin-top: 5px;
+}
+.features-container div:hover {
+    scale: 1.05;
+    cursor: default;
 }
