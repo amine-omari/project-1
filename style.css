@@ -97,3 +97,8 @@ section h3 {
     color: #646464;
     padding: 0px 260px 0px 260px;
 }
+.features-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 200px);
+}
