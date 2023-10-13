@@ -103,6 +103,7 @@ section h3 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 200px);
+    gap: 15px;
 }
 section h4 {
     font-size: 19px;
@@ -111,4 +112,5 @@ section h4 {
 }
 section p {
     padding: 0px 35px 0px 35px;
+    margin-top: 5px;
 }
