@@ -88,6 +88,7 @@ main button:hover {
 }
 section {
     text-align: center;
+    margin-top: 200px;
 }
 section h2 {
     font-size: 30px;
@@ -98,7 +99,13 @@ section h3 {
     padding: 0px 260px 0px 260px;
 }
 .features-container {
+    margin-top: 80px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 200px);
+}
+section h4 {
+    font-size: 19px;
+    margin-bottom: 0px;
+    font-weight: normal;
 }
