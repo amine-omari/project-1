@@ -109,3 +109,6 @@ section h4 {
     margin-bottom: 0px;
     font-weight: normal;
 }
+section p {
+    padding: 0px 35px 0px 35px;
+}
