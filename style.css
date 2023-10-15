@@ -164,4 +164,9 @@ section p {
         font-weight: normal;
         font-size: 16px;
     }
+    .features-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, auto);
+    }
 }
