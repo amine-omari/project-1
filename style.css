@@ -169,4 +169,28 @@ section p {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(4, auto);
     }
+    section {
+        padding: 0px 10px 0px 10px;
+        margin: 150px 0px 0px 0px;
+    }
+    section h3 {
+        padding: 0px;
+        font-size: 16px;
+    }
+    section h2 {
+        font-size: 20px;
+    }
+    main button {
+        padding: 20px;
+    }
+    section h4 {
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .features-container p {
+        font-size: 15px;
+        padding: 0px;
+        font-weight: lighter;
+        margin: 0px;
+    }
 }
